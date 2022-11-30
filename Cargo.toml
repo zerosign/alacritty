@@ -6,6 +6,9 @@ members = [
     "alacritty_config_derive",
 ]
 
+[patch.crates-io]
+calloop = { git = "https://github.com/Smithay/calloop" }
+
 [profile.release]
 lto = true
 debug = 1
